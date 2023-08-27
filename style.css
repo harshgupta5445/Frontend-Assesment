@@ -1,0 +1,73 @@
+body{
+  background-color: rgb(29, 30, 30);
+  
+}
+h2 {
+  color: aliceblue;
+  font-family: Syne;
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 102.6px;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+h3 {
+  color: aliceblue;
+  font-family: Syne;
+  font-size: 135px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 102.6px;
+  text-align: center;
+}
+
+h4 {
+  color: aliceblue;
+  font-family: Syne;
+  font-size: 135px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 102.6px;
+  text-align: center;
+}
+
+
+body {
+  background-image: url(image.png);
+  background-repeat: no-repeat;
+  background-size: 400px;
+  background-color: rgb(27, 24, 30);
+  padding: 0px;
+  margin: 0;
+  background-position-x: 1080px;
+  background-position-y: 200px
+}
+
+nav {
+  background-color: hsl(60, 4%, 5%);
+  height: 64px;
+  width: 100%;
+  position: fixed;
+  top: 80px;
+  z-index: 100;
+  margin: -7px;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  color: rgb(247, 242, 242);
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px 20px;
+  display: block;
+}
+
+nav a:hover {
+  background-color: #333;
+}
+
+
+
